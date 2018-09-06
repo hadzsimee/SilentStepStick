@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15339,6 +15339,8 @@ spreadCycle
 stealthChop
 stealthChop</text>
 <text x="90.17" y="57.15" size="2.1844" layer="97" font="vector" ratio="10" align="top-left">Standalone Operation (SPI_MODE=GND)</text>
+<text x="43.18" y="39.37" size="1.778" layer="97" font="vector" ratio="10" align="top-left">HEND=5</text>
+<text x="43.18" y="21.59" size="1.778" layer="97" font="vector" ratio="10" align="top-left">TBL=24</text>
 </plain>
 <instances>
 <instance part="JP1" gate="A" x="207.01" y="143.51" smashed="yes" rot="R180">

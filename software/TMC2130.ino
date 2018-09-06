@@ -2,13 +2,14 @@
   Trinamic TMC2130 Example
   
   Other examples/libraries can be found here:
-  https://github.com/makertum/Trinamic_TMC2130
   https://github.com/teemuatlut/TMC2130Stepper
+  https://github.com/janelia-arduino/TMC2130
+  https://github.com/makertum/Trinamic_TMC2130
 */
 
 #include "SPI.h"
 
-// Note: You also have to connect GND, 5V and VM.
+// Note: You also have to connect GND, 5V/VIO and VM.
 //       A connection diagram can be found in the schematics.
 #define EN_PIN    7 //enable (CFG6)
 #define DIR_PIN   8 //direction
@@ -94,11 +95,11 @@ void setup()
   Serial.println("\nStart...");
 
   //init SPI
+  SPI.begin();
   //SPI.setDataMode(SPI_MODE3); //SPI Mode 3
   //SPI.setBitOrder(MSBFIRST); //MSB first
   //SPI.setClockDivider(SPI_CLOCK_DIV128); //clk=Fcpu/128
   SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE3));
-  SPI.begin();
 
   //set TMC2130 config
   tmc_write(WRITE_FLAG|REG_GCONF,      0x00000001UL); //voltage on AIN is current reference

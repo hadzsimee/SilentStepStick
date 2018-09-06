@@ -6776,6 +6776,136 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <rectangle x1="-5" y1="-0.2" x2="-3" y2="0.2" layer="21"/>
 <rectangle x1="3.01" y1="-0.2" x2="5" y2="0.2" layer="21"/>
 </package>
+<package name="JUMPER3-0603">
+<description>Jumper with cream</description>
+<wire x1="-0.8" y1="-2" x2="-0.8" y2="2" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-2" x2="0.6" y2="-2.2" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.6" y1="2.2" x2="0.8" y2="2" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.6" y1="2.2" x2="-0.8" y2="2" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.8" y1="-2" x2="-0.6" y2="-2.2" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.6" y1="-2.2" x2="0.6" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="2.2" x2="0.6" y2="2.2" width="0.127" layer="21"/>
+<wire x1="0.8" y1="2" x2="0.8" y2="-2" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.6" x2="0" y2="-2.15" width="0.1524" layer="51"/>
+<wire x1="0" y1="1.6" x2="0" y2="2.15" width="0.127" layer="51"/>
+<wire x1="0.5" y1="0" x2="0.75" y2="0" width="0.127" layer="51"/>
+<wire x1="-0.75" y1="0" x2="-0.5" y2="0" width="0.127" layer="51"/>
+<wire x1="0.127" y1="-1.016" x2="-0.127" y2="-1.016" width="1" layer="51" curve="-180" cap="flat"/>
+<wire x1="-0.127" y1="1.016" x2="0.127" y2="1.016" width="1" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="0" y="1.4" dx="1.25" dy="1.25" layer="1" roundness="20"/>
+<smd name="2" x="0" y="0" dx="1.25" dy="1" layer="1" roundness="20"/>
+<smd name="3" x="0" y="-1.4" dx="1.25" dy="1.25" layer="1" roundness="20"/>
+<text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<rectangle x1="-0.725" y1="-0.725" x2="0.725" y2="-0.55" layer="29"/>
+<rectangle x1="-0.725" y1="0.55" x2="0.725" y2="0.725" layer="29"/>
+<rectangle x1="-0.5" y1="-0.5" x2="0.5" y2="0.5" layer="51" rot="R180"/>
+</package>
+<package name="JUMPER3-0603_NC">
+<description>Jumper without cream</description>
+<smd name="1" x="0" y="1.4" dx="1.25" dy="1.25" layer="1" roundness="20" cream="no"/>
+<smd name="2" x="0" y="0" dx="1.25" dy="1" layer="1" roundness="20" cream="no"/>
+<smd name="3" x="0" y="-1.4" dx="1.25" dy="1.25" layer="1" roundness="20" cream="no"/>
+<text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<wire x1="-0.8" y1="-2" x2="-0.8" y2="2" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-2" x2="0.6" y2="-2.2" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.6" y1="2.2" x2="0.8" y2="2" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.6" y1="2.2" x2="-0.8" y2="2" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.8" y1="-2" x2="-0.6" y2="-2.2" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.6" y1="-2.2" x2="0.6" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="2.2" x2="0.6" y2="2.2" width="0.127" layer="21"/>
+<wire x1="0.8" y1="2" x2="0.8" y2="-2" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.6" x2="0" y2="-2.15" width="0.1524" layer="51"/>
+<wire x1="0" y1="1.6" x2="0" y2="2.15" width="0.127" layer="51"/>
+<wire x1="0.5" y1="0" x2="0.75" y2="0" width="0.127" layer="51"/>
+<wire x1="0.127" y1="-1.016" x2="-0.127" y2="-1.016" width="1" layer="51" curve="-180" cap="flat"/>
+<wire x1="-0.127" y1="1.016" x2="0.127" y2="1.016" width="1" layer="51" curve="-180" cap="flat"/>
+<rectangle x1="-0.5" y1="-0.5" x2="0.5" y2="0.5" layer="51" rot="R180"/>
+<wire x1="-0.75" y1="0" x2="-0.5" y2="0" width="0.127" layer="51"/>
+<rectangle x1="-0.725" y1="-0.725" x2="0.725" y2="-0.55" layer="29"/>
+<rectangle x1="-0.725" y1="0.55" x2="0.725" y2="0.725" layer="29"/>
+</package>
+<package name="JUMPER3-0402">
+<description>Jumper with cream</description>
+<wire x1="-0.6" y1="-1.5" x2="-0.6" y2="1.5" width="0.127" layer="21"/>
+<wire x1="0.6" y1="-1.5" x2="0.4" y2="-1.7" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.4" y1="1.7" x2="0.6" y2="1.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.4" y1="1.7" x2="-0.6" y2="1.5" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.6" y1="-1.5" x2="-0.4" y2="-1.7" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.4" y1="-1.7" x2="0.4" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="1.7" x2="0.4" y2="1.7" width="0.127" layer="21"/>
+<wire x1="0.6" y1="1.5" x2="0.6" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.1" x2="0" y2="-1.65" width="0.1524" layer="51"/>
+<wire x1="0" y1="1.1" x2="0" y2="1.65" width="0.127" layer="51"/>
+<wire x1="0.4" y1="0" x2="0.55" y2="0" width="0.127" layer="51"/>
+<wire x1="-0.55" y1="0" x2="-0.4" y2="0" width="0.127" layer="51"/>
+<wire x1="0.05" y1="-0.816" x2="-0.05" y2="-0.816" width="1" layer="51" curve="-180" cap="flat"/>
+<wire x1="-0.05" y1="0.816" x2="0.05" y2="0.816" width="1" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="0" y="1.1" dx="0.9" dy="0.8" layer="1" roundness="20"/>
+<smd name="2" x="0" y="0" dx="0.9" dy="0.8" layer="1" roundness="20"/>
+<smd name="3" x="0" y="-1.1" dx="0.9" dy="0.8" layer="1" roundness="20"/>
+<text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<rectangle x1="-0.55" y1="-0.65" x2="0.55" y2="-0.45" layer="29"/>
+<rectangle x1="-0.55" y1="0.45" x2="0.55" y2="0.65" layer="29"/>
+<rectangle x1="-0.4" y1="-0.3" x2="0.4" y2="0.3" layer="51" rot="R180"/>
+</package>
+<package name="JUMPER3-0402_NC">
+<description>Jumper without cream</description>
+<wire x1="-0.6" y1="-1.5" x2="-0.6" y2="1.5" width="0.127" layer="21"/>
+<wire x1="0.6" y1="-1.5" x2="0.4" y2="-1.7" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.4" y1="1.7" x2="0.6" y2="1.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.4" y1="1.7" x2="-0.6" y2="1.5" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.6" y1="-1.5" x2="-0.4" y2="-1.7" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.4" y1="-1.7" x2="0.4" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="1.7" x2="0.4" y2="1.7" width="0.127" layer="21"/>
+<wire x1="0.6" y1="1.5" x2="0.6" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.1" x2="0" y2="-1.65" width="0.1524" layer="51"/>
+<wire x1="0" y1="1.1" x2="0" y2="1.65" width="0.127" layer="51"/>
+<wire x1="0.4" y1="0" x2="0.55" y2="0" width="0.127" layer="51"/>
+<wire x1="0.05" y1="-0.816" x2="-0.05" y2="-0.816" width="1" layer="51" curve="-180" cap="flat"/>
+<wire x1="-0.05" y1="0.816" x2="0.05" y2="0.816" width="1" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="0" y="1.1" dx="0.9" dy="0.8" layer="1" roundness="20" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.9" dy="0.8" layer="1" roundness="20" cream="no"/>
+<smd name="3" x="0" y="-1.1" dx="0.9" dy="0.8" layer="1" roundness="20" cream="no"/>
+<text x="-1.27" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<rectangle x1="-0.4" y1="-0.3" x2="0.4" y2="0.3" layer="51" rot="R180"/>
+<wire x1="-0.55" y1="0" x2="-0.4" y2="0" width="0.127" layer="51"/>
+<rectangle x1="-0.55" y1="-0.65" x2="0.55" y2="-0.45" layer="29"/>
+<rectangle x1="-0.55" y1="0.45" x2="0.55" y2="0.65" layer="29"/>
+</package>
+<package name="JUMPER3-0201">
+<description>Jumper with cream</description>
+<smd name="1" x="0" y="0.55" dx="0.4" dy="0.35" layer="1" roundness="25"/>
+<smd name="2" x="0" y="0" dx="0.4" dy="0.35" layer="1" roundness="25"/>
+<text x="-0.889" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<rectangle x1="-0.3" y1="0.23" x2="0.3" y2="0.32" layer="29"/>
+<smd name="3" x="0" y="-0.55" dx="0.4" dy="0.35" layer="1" roundness="25"/>
+<rectangle x1="-0.3" y1="-0.32" x2="0.3" y2="-0.23" layer="29"/>
+<wire x1="-0.381" y1="0.7485" x2="-0.381" y2="-0.7485" width="0.1" layer="21"/>
+<wire x1="-0.381" y1="-0.7485" x2="-0.254" y2="-0.8755" width="0.1" layer="21" curve="90"/>
+<wire x1="-0.254" y1="-0.8755" x2="0.254" y2="-0.8755" width="0.1" layer="21"/>
+<wire x1="0.254" y1="-0.8755" x2="0.381" y2="-0.7485" width="0.1" layer="21" curve="90"/>
+<wire x1="0.381" y1="-0.7485" x2="0.381" y2="0.7485" width="0.1" layer="21"/>
+<wire x1="0.381" y1="0.7485" x2="0.254" y2="0.8755" width="0.1" layer="21" curve="90"/>
+<wire x1="0.254" y1="0.8755" x2="-0.254" y2="0.8755" width="0.1" layer="21"/>
+<wire x1="-0.381" y1="0.7485" x2="-0.254" y2="0.8755" width="0.1" layer="21" curve="-90"/>
+</package>
+<package name="JUMPER3-0201_NC">
+<description>Jumper without cream</description>
+<smd name="1" x="0" y="0.55" dx="0.4" dy="0.35" layer="1" roundness="25" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.4" dy="0.35" layer="1" roundness="25" cream="no"/>
+<text x="-0.889" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<rectangle x1="-0.3" y1="0.23" x2="0.3" y2="0.32" layer="29"/>
+<smd name="3" x="0" y="-0.55" dx="0.4" dy="0.35" layer="1" roundness="25" cream="no"/>
+<rectangle x1="-0.3" y1="-0.32" x2="0.3" y2="-0.23" layer="29"/>
+<wire x1="-0.381" y1="0.7485" x2="-0.381" y2="-0.7485" width="0.1" layer="21"/>
+<wire x1="-0.381" y1="-0.7485" x2="-0.254" y2="-0.8755" width="0.1" layer="21" curve="90"/>
+<wire x1="-0.254" y1="-0.8755" x2="0.254" y2="-0.8755" width="0.1" layer="21"/>
+<wire x1="0.254" y1="-0.8755" x2="0.381" y2="-0.7485" width="0.1" layer="21" curve="90"/>
+<wire x1="0.381" y1="-0.7485" x2="0.381" y2="0.7485" width="0.1" layer="21"/>
+<wire x1="0.381" y1="0.7485" x2="0.254" y2="0.8755" width="0.1" layer="21" curve="90"/>
+<wire x1="0.254" y1="0.8755" x2="-0.254" y2="0.8755" width="0.1" layer="21"/>
+<wire x1="-0.381" y1="0.7485" x2="-0.254" y2="0.8755" width="0.1" layer="21" curve="-90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POT">
@@ -6825,6 +6955,21 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
 <pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+<symbol name="JUMPER3">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="95" rot="R270" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7150,6 +7295,74 @@ all kinds in 0402 and 0603</description>
 <connects>
 <connect gate="J" pin="1" pad="1"/>
 <connect gate="J" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER3" prefix="J">
+<description>3 Pin Jumpers</description>
+<gates>
+<gate name="J" symbol="JUMPER3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603" package="JUMPER3-0603">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0603-NC" package="JUMPER3-0603_NC">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0402" package="JUMPER3-0402">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0402-NC" package="JUMPER3-0402_NC">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0201" package="JUMPER3-0201">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0201-NC" package="JUMPER3-0201_NC">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15049,10 +15262,10 @@ all kinds in 0402 and 0603</description>
 <part name="R1" library="we-rcl" deviceset="RESISTOR" device="-0402" value="20k"/>
 <part name="R2" library="we-rcl" deviceset="RESISTOR" device="-0402" value="20k"/>
 <part name="J1" library="we-rcl" deviceset="JUMPER2" device="-0402"/>
-<part name="J2" library="we-rcl" deviceset="JUMPER2" device="-0402"/>
 <part name="C5" library="we-rcl" deviceset="CAPACITOR" device="-0402" value="100n/50V"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="J2" library="we-rcl" deviceset="JUMPER3" device="-0402-NC"/>
 </parts>
 <sheets>
 <sheet>
@@ -15186,11 +15399,11 @@ stealthChop2</text>
 <instance part="R3" gate="R" x="74.93" y="104.14"/>
 <instance part="R1" gate="R" x="80.01" y="99.06"/>
 <instance part="R2" gate="R" x="80.01" y="132.08"/>
-<instance part="J1" gate="J" x="210.82" y="139.7"/>
-<instance part="J2" gate="J" x="218.44" y="142.24"/>
+<instance part="J1" gate="J" x="215.9" y="137.16"/>
 <instance part="C5" gate="C" x="151.13" y="153.67" rot="R90"/>
 <instance part="GND5" gate="1" x="151.13" y="162.56" rot="R180"/>
 <instance part="GND11" gate="1" x="60.96" y="132.08"/>
+<instance part="J2" gate="J" x="215.9" y="147.32" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -15516,8 +15729,8 @@ stealthChop2</text>
 </segment>
 <segment>
 <pinref part="J1" gate="J" pin="2"/>
-<wire x1="215.9" y1="139.7" x2="226.06" y2="139.7" width="0.1524" layer="91"/>
-<label x="226.06" y="139.7" size="1.27" layer="95" xref="yes"/>
+<wire x1="220.98" y1="137.16" x2="226.06" y2="137.16" width="0.1524" layer="91"/>
+<label x="226.06" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PDN_UART" class="0">
@@ -15528,9 +15741,9 @@ stealthChop2</text>
 <label x="86.36" y="99.06" size="1.27" layer="95"/>
 </segment>
 <segment>
+<label x="226.06" y="147.32" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="J" pin="2"/>
-<wire x1="223.52" y1="142.24" x2="226.06" y2="142.24" width="0.1524" layer="91"/>
-<label x="226.06" y="142.24" size="1.27" layer="95" xref="yes"/>
+<wire x1="220.98" y1="147.32" x2="226.06" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -15550,14 +15763,24 @@ stealthChop2</text>
 <segment>
 <pinref part="J1" gate="J" pin="1"/>
 <pinref part="JP1" gate="A" pin="3"/>
-<wire x1="205.74" y1="139.7" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="137.16" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="139.7" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="J2" gate="J" pin="1"/>
 <pinref part="JP1" gate="A" pin="4"/>
-<wire x1="213.36" y1="142.24" x2="193.04" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="142.24" x2="193.04" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="J2" gate="J" pin="1"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="5"/>
+<pinref part="J2" gate="J" pin="3"/>
+<wire x1="193.04" y1="144.78" x2="210.82" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="144.78" x2="210.82" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="152.4" x2="215.9" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
